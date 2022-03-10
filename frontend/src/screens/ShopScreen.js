@@ -22,7 +22,7 @@ const ShopScreen = () => {
 			{loading ? (
 				<Loader />
 			) : error ? (
-				<Message varient='red'>{error}</Message>
+				<Message varient='danger'>{error}</Message>
 			) : (
 				<Row>
 					{products.map((product) => (
